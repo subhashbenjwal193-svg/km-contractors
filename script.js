@@ -21,7 +21,7 @@ document.querySelectorAll("a[href^='#']").forEach(link => {
 // WhatsApp contact button
 function openWhatsApp() {
     window.open(
-        "https://wa.me/91XXXXXXXXXX",
+        "https://wa.me/919557100513",
         "_blank"
     );
 }
