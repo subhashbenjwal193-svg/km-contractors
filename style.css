@@ -6,20 +6,18 @@ color:#333;
 }
 
 header{
-background:#0b3d91;
 color:white;
-padding:40px 20px;
 text-align:center;
 }
 
 .logo{
-    width:120px;
-    height:auto;
-    display:block;
-    margin:0 auto 20px;
-    background:#fff;
-    padding:10px;
-    border-radius:12px;
+width:120px;
+height:auto;
+display:block;
+margin:0 auto 20px;
+background:#fff;
+padding:12px;
+border-radius:15px;
 }
 
 h1{
