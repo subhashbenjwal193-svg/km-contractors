@@ -1,27 +1,33 @@
-<header class="hero">
+.hero{
+    background-image: linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
+    url("https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1600&q=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
 
-    <img src="logo.png" class="logo">
+.hero h1{
+    font-size:55px;
+}
 
-    <h1>M K CONTRACTORS</h1>
+.tagline{
+    color:#ffd54f;
+    font-size:22px;
+}
 
-    <p class="tagline">
-        Civil • Electrical • General Contractor
-    </p>
+.hero-text{
+    max-width:800px;
+    line-height:1.8;
+}
 
-    <h2>Building Trust With Quality Construction</h2>
-
-    <p class="hero-text">
-        Professional Civil Construction, Building Works,
-        Electrical Projects, Hydro Power Projects &
-        General Contracting across Uttarakhand.
-    </p>
-
-    <div class="buttons">
-        <a href="tel:9557100513" class="btn">📞 Call Now</a>
-
-        <a href="https://wa.me/919557100513" class="btn">💬 WhatsApp</a>
-
-        <a href="mailto:subhashbenjwal193@gmail.com" class="btn">📧 Email</a>
-    </div>
-
-</header>
+.buttons{
+    margin-top:25px;
+}
